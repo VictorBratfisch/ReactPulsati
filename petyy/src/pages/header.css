@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.right{
+    gap: 20px;
+}
