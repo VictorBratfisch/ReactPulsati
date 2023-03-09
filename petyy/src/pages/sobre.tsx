@@ -1,3 +1,4 @@
+import'./sobre.css'
 export function Sobre() {
   return (
     <div>
@@ -58,4 +59,5 @@ export function Sobre() {
     </div>
   )
 }
+
 

@@ -1,3 +1,4 @@
+import'./header.css'
 export function Header() {
   return (
     <div>
@@ -5,8 +6,8 @@ export function Header() {
         <nav>
             <img src="./src/assets/img/logo.png" alt="" />
             <div className="links">
-              <a href="#">Home</a>
-              <a href="Sobre()">Sobre</a>
+              <a href="/home">Home</a>
+              <a href="/sobre">Sobre</a>
             </div>          
         </nav>
         <div className="right">
@@ -17,3 +18,4 @@ export function Header() {
     </div>
   );
 }
+
