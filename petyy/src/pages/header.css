@@ -24,10 +24,10 @@ nav{
     display: flex;
     font-size: 17px;
 }
-nav a{
-    color: black;
+.links a{
+    color: black; 
 }
-nav a:hover{
+.links a:hover{
     color: white;
 }
 .right{
@@ -35,7 +35,15 @@ nav a:hover{
     gap: 20px;
     justify-content: right;
     margin-right: 10px;
-} 
+}
+.right button{
+    background-color: white;
+    border: 0px;
+    border-radius: 3px;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+}
 .right button:hover{
     border-color: black;
     background-color: #c090f0;
