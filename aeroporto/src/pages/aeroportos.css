@@ -1,0 +1,24 @@
+#root {
+    text-align: center;
+  }
+.aero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+   .tabela td{
+    border: solid 2px;
+    padding: 10px;
+  }
+  td a{
+    color: #aad7ff;
+  }
+  td button{
+    background-color: transparent;
+    color: #aad7ff;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+  }
