@@ -6,9 +6,9 @@ export function Header() {
         <nav>
           <div className='opcao'>
             <img src="./src/assets/img/logo.png" alt="" />
-            <a href='/home'>Home</a>
-            <a href='/aeroporto'>Aeroportos</a>
+            <a href='/'>Aeroportos</a>
             <a href='/aeroporto-criar'>Criar Aeroporto</a>
+            <a href='/voos'>Voos</a>
           </div>
         </nav>
       </header>

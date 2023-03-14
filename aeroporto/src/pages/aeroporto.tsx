@@ -28,6 +28,7 @@ export function Aeroportos() {
         <thead>
           <td>Código</td>
           <td>Nome</td>
+          <td>Código Voo</td>
           <td>Ver</td>
           <td>Alterar</td>
           <td>Deletar</td>
@@ -39,6 +40,7 @@ export function Aeroportos() {
                 <tr>
                   <td>{aeroporto.codigo}</td>
                   <td>{aeroporto.nome}</td>
+                  <td>{aeroporto.codigo_voo}</td>
                   <td>
                     <a href={`/aeroporto/${aeroporto.codigo}`}>Ver</a>
                   </td>  

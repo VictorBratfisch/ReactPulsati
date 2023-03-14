@@ -12,12 +12,33 @@
   .criarBox{
     display: flex;
     gap: 10px;
+    color: #d5e9fa;
   }
   .criar form{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
-  .salvar button{
+  .salvar input{
     width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: #aad7ff;
+  }
+  .cod{
+    display: flex;
+    gap: 10px;
+    color: #d5e9fa;
+  }
+  .cod input{
+    background-color: transparent;
+    border: solid 2px #aad7ff;
+    color: #d5e9fa;
+  }
+  .criarBox input{
+    background-color: transparent;
+    border: solid 2px #aad7ff;
+    color: #d5e9fa;
   }

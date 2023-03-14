@@ -23,7 +23,7 @@ export function AeroportoNovo() {
         <span>Nome</span>
         <input type="text" name="nome" />
       </div>
-      <div className="">
+      <div className="cod">
           <span>Código Voo</span>
           <input type="number" name="codigo_voo"/>
       </div>
