@@ -12,7 +12,9 @@ export function Voos() {
     setVoos(voos);
   }
 
-
+  useEffect(() => {
+    loadData();
+  }, []);
 
   return (
     <div className="aero">
