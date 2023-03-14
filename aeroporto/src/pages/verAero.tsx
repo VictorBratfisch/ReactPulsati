@@ -23,6 +23,10 @@ export function AeroportoVer() {
         <span>Nome</span>
         <input type="text" value={aeroporto?.nome} />
       </div>
+      <div>
+        <span>Código Voo</span>
+        <input type="text" value={aeroporto?.codigo_voo}/>
+      </div>
     </div>
   )
 }

@@ -29,6 +29,7 @@ export function Aeroportos() {
           <td>Código</td>
           <td>Nome</td>
           <td>Ver</td>
+          <td>Alterar</td>
           <td>Deletar</td>
         </thead>
         <tbody>
@@ -41,6 +42,11 @@ export function Aeroportos() {
                   <td>
                     <a href={`/aeroporto/${aeroporto.codigo}`}>Ver</a>
                   </td>  
+                  <td>
+                  <a href={`/passageiros-atualizar/${aeroporto.codigo}`}>
+                    Atualizar
+                  </a>
+                </td>
                   <td><button onClick={() => onClickDeleteAeroporto(aeroporto.codigo)}>Delete</button></td>
                 </tr>
               )

@@ -5,6 +5,7 @@ import { Header } from './pages/header'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import { AeroportoVer } from './pages/verAero'
 import { AeroportoNovo } from './pages/AeroportoNovo'
+import { AeroportoAtualizar } from './pages/atualizarAeroporto'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
              <Route path='/aeroporto' element={<Aeroportos />} />
              <Route path='/aeroporto/:id' element={<AeroportoVer/>}/>
              <Route path='/aeroporto-criar' element={<AeroportoNovo />} />
+             <Route path='/passageiros-atualizar/:id' element={<AeroportoAtualizar />}/>
            </Routes>
         </Router>
       </div>
